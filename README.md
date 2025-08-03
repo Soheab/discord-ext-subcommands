@@ -14,8 +14,6 @@ A powerful Discord.py extension that revolutionizes command organization by allo
 - [Usage Guide](#usage-guide)
 - [Examples](#examples)
 - [API Reference](#api-reference)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Why Use This?
@@ -155,6 +153,14 @@ async def server_group(ctx):
 async def server_settings_group(ctx):
     """Server settings management"""
     pass
+
+# Can use the subcommand decorator too-
+# -if it's not in the same file.
+# @subcommand("server")
+# @commands.hybrid_group(name="settings")
+# async def server_settings_group(ctx):
+#     """Server settings management"""
+#     pass
 
 # Subcommand for nested group
 class ConfigCog(commands.Cog):
