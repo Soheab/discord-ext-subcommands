@@ -28,20 +28,15 @@ Perfect for large bots where command groups become unwieldy when defined in a si
 
 ## Installation
 
-### Stable Release (Recommended)
-```bash
-python -m pip install discord-ext-subcommands
-```
-
-### Development Version
-For the latest features and bug fixes:
-```bash
-python -m pip install "discord-ext-subcommands @ git+https://github.com/yourusername/discord-ext-subcommands"
-```
+This extension is not available on PyPI, so you need to install it directly from the GitHub repository. Use the following command:
 
 ### Requirements
 - Python 3.12+
-- discord.py 2.5.2+
+- [git](https://git-scm.com/)
+
+```bash
+python -m pip install "discord-ext-subcommands @ git+https://github.com/soheab/discord-ext-subcommands"
+```
 
 
 ## Inspiration
@@ -234,8 +229,8 @@ This project is licensed under the [Mozilla Public License 2.0](LICENSE).
     <strong>Made with ❤️ for the Discord.py community</strong>
   </p>
   <p>
-    <a href="https://github.com/yourusername/discord-ext-subcommands/issues">Report Bug</a> •
-    <a href="https://github.com/yourusername/discord-ext-subcommands/discussions">Request Feature</a> •
-    <a href="https://github.com/yourusername/discord-ext-subcommands">Star on GitHub</a>
+    <a href="https://github.com/soheab/discord-ext-subcommands/issues">Report Bug</a> •
+    <a href="https://github.com/soheab/discord-ext-subcommands/discussions">Request Feature</a> •
+    <a href="https://github.com/soheab/discord-ext-subcommands">Star on GitHub</a>
   </p>
 </div>

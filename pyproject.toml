@@ -27,9 +27,9 @@ include = ["discord", "discord.ext", "discord.ext.subcommands"]
 dev = ["ruff>=0.1.0"]
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/discord-ext-subcommands"
-"Bug Reports" = "https://github.com/yourusername/discord-ext-subcommands/issues"
-"Source" = "https://github.com/yourusername/discord-ext-subcommands"
+"Homepage" = "https://github.com/soheab/discord-ext-subcommands"
+"Bug Reports" = "https://github.com/soheab/discord-ext-subcommands/issues"
+"Source" = "https://github.com/soheab/discord-ext-subcommands"
 
 
 [tool.black]
