@@ -109,11 +109,6 @@ class MultiFilesSubcommandsManager:
     ----------
     bot: commands.Bot
         The bot instance.
-    auto_init: bool
-        Whether to automatically initialize the manager.
-        Without this, you must call `initiate()` manually, otherwise the manager will not do anything.
-
-        Defaults to ``True``.
     copy_group_error_handler: bool
         Whether to copy the error handler from the group to the subcommand.
         The library does this automatically for app commands. So this only applies to prefix/hybrid commands.
