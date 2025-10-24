@@ -149,9 +149,6 @@ class MultiFilesSubcommandsManager:
         self.__bot = bot
         self._copy_group_error_handler = copy_group_error_handler
         self._check_group_type = check_group_type
-        print(
-            f"MultiFilesSubcommandsManager initialized with copy_group_error_handler={self._copy_group_error_handler!r}."
-        )
         self.__original_cog_add: Callable[..., Coroutine[Any, Any, None]] = self.__bot.add_cog
         self.__original_cog_remove: Callable[..., Coroutine[Any, Any, commands.Cog | None]] = self.__bot.remove_cog
         self.__bot.add_cog = self.__cog_add
