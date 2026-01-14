@@ -221,16 +221,3 @@ A decorator that marks a command as a subcommand of an existing group.
 ## License
 
 This project is licensed under the [Mozilla Public License 2.0](LICENSE).
-
----
-
-<div align="center">
-  <p>
-    <strong>Made with ❤️ for the Discord.py community</strong>
-  </p>
-  <p>
-    <a href="https://github.com/soheab/discord-ext-subcommands/issues">Report Bug</a> •
-    <a href="https://github.com/soheab/discord-ext-subcommands/discussions">Request Feature</a> •
-    <a href="https://github.com/soheab/discord-ext-subcommands">Star on GitHub</a>
-  </p>
-</div>
