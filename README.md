@@ -18,11 +18,11 @@ A powerful Discord.py extension that revolutionizes command organization by allo
 
 ## Why Use This?
 
-🎯 **Modular Organization**: Split large command groups across multiple files for better code organization  
-🔧 **Easy Maintenance**: Each subcommand lives in its own logical cog, making updates and debugging simpler  
-🔄 **Flexible**: Works seamlessly with prefix commands, slash commands, and hybrid commands  
-📁 **Clean Architecture**: Keep related functionality together while maintaining separation of concerns  
-⚡ **Automatic Management**: Handles the complex task of connecting subcommands to their parent groups automatically  
+**Modular Organization**: Split large command groups across multiple files for better code organization  
+**Easy Maintenance**: Each subcommand lives in its own logical cog, making updates and debugging simpler  
+**Flexible**: Works seamlessly with prefix commands, slash commands, and hybrid commands  
+**Clean Architecture**: Keep related functionality together while maintaining separation of concerns  
+**Automatic Management**: Handles the complex task of connecting subcommands to their parent groups automatically  
 
 Perfect for large bots where command groups become unwieldy when defined in a single file!
 
